@@ -11,7 +11,7 @@ function Signup (){
         <div>
             <Nav />
             
-            <form>
+            <form className='content-center'>
                 <div className='p-12 justify-center'>
 
                 <div>
@@ -33,6 +33,13 @@ function Signup (){
                 <label>Email Address</label>
                 <input type = 'email' name='email address'className='w-20px h-35 border rounded-md shadow' required/>
                 </div>
+
+                <div>
+                <label>Password</label>
+                <input type = 'password' name='password'className='w-20px h-35 border rounded-md shadow' required/>
+                </div>
+
+            
 
                 <div>
                 <input type ="submit" name='button' className = "w-20px h-35px bg-orange-500 border hover:text-blue-500 rounded-md "/>

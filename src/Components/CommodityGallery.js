@@ -1,7 +1,5 @@
 import React from 'react';
 import Commodity from '../Data';
-import Commodity1 from '../Data1';
-import Commodity2 from '../Data2';
 import Popular from '../Popular';
 import {Link} from "react-router-dom";
 import CommodityItem from '../Components/CommodityItem';
@@ -109,16 +107,32 @@ function CommodityGallery (){
                 </div>
 
                 <div className=''>
-                    
-                        <h2 className='shadow p-4'>Explore Popular Brands</h2>
-                        <div className='flex py-8 justify-evenly sm:flex-none'>{Popular.map((item) => {
+
+                    <div className='flex'>
+
+                        <div>
+                            <p className='text-lg'>How to buy and sell on iMarket</p>
+                            <p className='text-sm'>Click here</p>
+                        </div>
+
+
+                        <div></div>
+
+
+
+                    </div>
+                        <div className = 'flex p-4 justify-between'>
+                        <h2 className=''>Explore Popular Brands</h2>
+                        <p className='text-xs text-red-700'>SEE ALL</p>
+                        </div>
+                        <div className='flex-wrap py-8 justify-evenly flex w-1/4 sm:flex-none'>{Popular.map((item) => {
                             return <img src = {item.url}
                             key = {item.id} alt = {item.name} />
                         })}</div>
                     
                     <div className=''>
                         <h2>Daily Deals</h2>
-                        <div className='flex justify-evenly sm:flex-none'> {Commodity.map ((peg) =>
+                        <div className='flex-wrap flex w-1/4 justify-evenly sm:flex-none'> {Commodity.map ((peg) =>
                         <CommodityItem 
                         key = {peg.id}
                         name = {peg.name}
@@ -128,25 +142,6 @@ function CommodityGallery (){
                         category = {peg.category}
                         />)}  </div>
 
-                        <div className='flex justify-evenly sm:flex-none'> {Commodity1.map ((ped) =>
-                        <CommodityItem 
-                        key = {ped.id}
-                        name = {ped.name}
-                        url = {ped.url}
-                        location = {ped.location}
-                        price = {ped.price}
-                        category = {ped.category}
-                        />)}  </div>
-
-                        <div className='flex justify-evenly sm:flex-none'> {Commodity2.map ((peb) =>
-                        <CommodityItem 
-                        key = {peb.id}
-                        name = {peb.name}
-                        url = {peb.url}
-                        location = {peb.location}
-                        price = {peb.price}
-                        category = {peb.category}
-                        />)}  </div>
                     </div>
                 </div>
         </div>
