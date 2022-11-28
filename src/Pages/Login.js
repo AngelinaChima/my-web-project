@@ -62,8 +62,8 @@ return (
 
        <div>
           <Nav />
-            <div className='p-12 justify-center'>
-                <form>
+            <div>
+                <form className='p-12 justify-center'>
 
                 <div>
                 <label>Username</label>
