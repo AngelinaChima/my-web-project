@@ -31,75 +31,75 @@ function CommodityGallery (){
                    <div className = "">
                     
                         <div className='flex justify-between'>
-                        <img scr = {vehicle} alt = "veh"/>
+                        <img src = {vehicle} alt = "veh"/>
                             Vehicles
-                    <Link to = "Vehicles"><img scr = {chevron} alt = "chev"/></Link>
+                    <Link to = "Vehicles"><img src = {chevron} alt = "chev"/></Link>
                         </div>
                      
                         <div className='flex justify-between'>
-                        <img scr = {Property} alt = "prop"/>
+                        <img src = {Property} alt = "prop"/>
                             Property
-                        <Link to = "Property"> <img scr = {chevron} alt = "chev"/></Link>
+                        <Link to = "Property"> <img src = {chevron} alt = "chev"/></Link>
                         </div>
 
                         <div className='flex justify-between'>
-                        <img scr = {Electronics} alt = "Elect"/>
+                        <img src = {Electronics} alt = "Elect"/>
                             Electronics
-                        <Link to = "Electronics"><img scr = {chevron} alt = "chev"/></Link>
+                        <Link to = "Electronics"><img src = {chevron} alt = "chev"/></Link>
                         </div>
 
                         <div className='flex justify-between'>
-                        <img scr = {Jobs} alt = "Job"/> 
+                        <img src = {Jobs} alt = "Job"/> 
                             Jobs
-                        <Link to = "Jobs"><img scr = {chevron} alt = "chev"/></Link>
+                        <Link to = "Jobs"><img src = {chevron} alt = "chev"/></Link>
                         </div>
 
                         <div className='flex justify-between'>
-                        <img scr = {Appliance} alt = "Appl"/>
+                        <img src = {Appliance} alt = "Appl"/>
                         Home Appliances
-                        <Link to = "Home Appliances"> <img scr = {chevron} alt = "chev"/></Link>
+                        <Link to = "Home Appliances"> <img src = {chevron} alt = "chev"/></Link>
                         </div>
 
                         <div className='flex justify-between'>
-                        <img scr = {Sports} alt = "sprt"/>
+                        <img src = {Sports} alt = "sprt"/>
                         Sports
-                        <Link to = "Sports"> <img scr = {chevron} alt = "chev"/></Link>
+                        <Link to = "Sports"> <img src = {chevron} alt = "chev"/></Link>
                         </div>
 
                         <div className='flex justify-between'>
-                        <img scr = {Games} alt = "game"/>
+                        <img src = {Games} alt = "game"/>
                         Games
-                        <Link to = "Games"> <img scr = {chevron} alt = "chev"/></Link>
+                        <Link to = "Games"> <img src = {chevron} alt = "chev"/></Link>
                         </div>
 
                         <div className='flex justify-between'>
-                        <img scr = {Beauty} alt = "Beauty"/>
+                        <img src = {Beauty} alt = "Beauty"/>
                         Beauty & Health
-                        <Link to = "Beauty & Health"> <img scr = {chevron} alt = "chev"/></Link>
+                        <Link to = "Beauty & Health"> <img src = {chevron} alt = "chev"/></Link>
                         </div>
 
                         <div className='flex justify-between'>
-                        <img scr = {Foods} alt = "food"/>
+                        <img src = {Foods} alt = "food"/>
                         Foods
-                        <Link to = "Foods"> <img scr = {chevron} alt = "chev"/></Link>
+                        <Link to = "Foods"> <img src = {chevron} alt = "chev"/></Link>
                         </div>
 
                         <div className='flex justify-between'>
-                        <img scr = {Fashion} alt = "fash"/>
+                        <img src = {Fashion} alt = "fash"/>
                         Fashion
-                        <Link to = "Fashion"> <img scr = {chevron} alt = "chev"/></Link>
+                        <Link to = "Fashion"> <img src = {chevron} alt = "chev"/></Link>
                         </div>
 
                         <div className='flex justify-between'>
-                        <img scr = {Services} alt = "serv"/>
+                        <img src = {Services} alt = "serv"/>
                         Services
-                        <Link to = "Services"> <img scr = {chevron} alt = "chev"/></Link>
+                        <Link to = "Services"> <img src = {chevron} alt = "chev"/></Link>
                         </div>
 
                         <div className='flex justify-between'>
-                        <img scr = {Kids} alt = "kids"/>
+                        <img src = {Kids} alt = "kids"/>
                         Kids
-                        <Link to = "Kids"> <img scr = {chevron} alt = "chev"/></Link>
+                        <Link to = "Kids"> <img src = {chevron} alt = "chev"/></Link>
                         </div>
                         
                    </div>
@@ -113,7 +113,7 @@ function CommodityGallery (){
                         <div className='shadow p-6 m-6'>
                             <p className='text-xl'>How to <span className = 'text-orange-400'>buy</span> and <span className = 'text-orange-400'>sell</span> on iMarket</p>
                             <p className='text-sm'>Click here </p>
-                            <Link to = "Home"> <img scr = {chevron} alt = "chev" /></Link>
+                            <Link to = "Home"> <img src = {chevron} alt = "chev" /></Link>
                         </div>
 
 
