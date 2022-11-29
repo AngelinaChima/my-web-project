@@ -5,7 +5,7 @@ import logo2 from "../Images/logo2.png";
 function Footer() {
 
   return (
-    <div className = " bg-gray-800 text-white h-40px px-4  text-center pt-4">
+    <div className = " bg-gray-800 text-white h-40px px-4  text-center pt-4 sm:text-sm">
         <div className = "flex justify-between ">
           <div className = "list-none my-4">
           <ul className='text-left'>

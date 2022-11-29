@@ -17,6 +17,8 @@ import Fashion from "../Images/Fashion.png";
 import Services from "../Images/Services.png";
 import Kids from "../Images/Kids.png";
 import chevron from "../Images/chevron.png";
+import sale from "../Images/sale.png";
+import sell from "../Images/sell.png";
 
 
 
@@ -25,10 +27,10 @@ function CommodityGallery (){
 
     return(
         <div className='flex justify-evenly'>
-                <div className = 'h-85 w-60 m-4 p-4 shadow'>
-                   <h4 className = "shadow-md">CATEGORIES</h4>
+                <div className = ' m-6 p-6 shadow w-40px'>
+                   <h4 className = "shadow-md px-4">CATEGORIES</h4>
 
-                   <div className = "">
+                   <div className = "pt-4">
                     
                         <div className='flex justify-between'>
                         <img src = {vehicle} alt = "veh"/>
@@ -108,25 +110,18 @@ function CommodityGallery (){
 
                 <div className=''>
 
-                    <div className='flex'>
-
-                        <div className='shadow p-6 m-6'>
-                            <p className='text-xl'>How to <span className = 'text-orange-400'>buy</span> and <span className = 'text-orange-400'>sell</span> on iMarket</p>
-                            <p className='text-sm'>Click here </p>
-                            <Link to = "Home"> <img src = {chevron} alt = "chev" /></Link>
-                        </div>
-
-
-                        <div>
-                            
-                        </div>
-
-
-
+                    <div className='flex justify-evenly sm:flex-none'>
+                            <div>
+                             <img src = {sell} alt = "sell" /> 
+                             </div>
+                             <div>
+                            <img src = {sale} alt = "sale" /> 
+                            </div>
                     </div>
+
                         <div className = 'flex p-4 justify-between'>
                         <h2 className=''>Explore Popular Brands</h2>
-                        <p className='text-xs text-red-700'>SEE ALL</p>
+                        <p className='text-xs text-red-700 cursor'>SEE ALL</p>
                         </div>
                         <div className='flex-wrap py-8 justify-evenly flex w-1/8  sm:flex-none'>{Popular.map((item) => {
                             return <img src = {item.url}
