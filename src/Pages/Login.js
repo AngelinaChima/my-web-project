@@ -67,16 +67,16 @@ return (
 
                 <div>
                 <label>Username</label>
-                <input type = 'text' name='username'className='w-20px h-35 border rounded-md shadow' required/>   
+                <input type = 'text' name='username'className='w-20px block mb-4 h-35 border rounded-md shadow' required/>   
                 </div>
 
                 <div>
                 <label>Password</label>
-                <input type = 'password' name='password'className='w-20px h-35 border rounded-md shadow' required/>
+                <input type = 'password' name='password'className='w-20px block mb-4 h-35 border rounded-md shadow' required/>
                 </div>
 
                 <div>
-                <input type ="submit" name='button' className = "cursor text-white w-30px h-35px bg-orange-500 border hover:text-blue-500 rounded-md "/>
+                <input type ="submit" name='button' className = "cursor block text-white w-30px h-35px bg-orange-500 border hover:text-blue-500 rounded-md "/>
             </div>
 
                 </form>

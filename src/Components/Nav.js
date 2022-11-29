@@ -8,12 +8,12 @@ function Nav (){
 
     return(
 
-        <div className = "w-full h-60px shadow-md flex static justify-between px-6 items-center">
+        <div className = "w-auto h-60px shadow-md flex static justify-between px-6 items-center">
 
         <img src={logo} alt = "logo"/>
 
             <div className='flex'>  <FaSistrix/>
-                <input type = "text" className = "w-40px border text-xs" 
+                <input type = "text" className = "w-40px sm:w-20px border text-xs" 
             placeholder = 'Search for anything...' /></div>
 
             <div className = 'flex text-sm'>
@@ -25,7 +25,7 @@ function Nav (){
 
             <Link to = "Signup" className = 'mr-4 cursor-pointer text-black-400 hover:text-blue-500'>Signup</Link>
             
-            <Link to = "/Login" className = "w-15px h-30px bg-orange-500 border hover:text-blue-500 rounded-md ">Get Started</Link>
+            <Link to = "/Login" className = "w-15px h-30px sm:w-10px sm:text-xs sm:h-10px md:h-20px md:w-10px md:text-sm bg-orange-500 border hover:text-blue-500 rounded-md ">Get Started</Link>
             </div>
         </div>
     )
