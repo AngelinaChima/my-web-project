@@ -8,7 +8,7 @@ function Nav (){
 
     return(
 
-        <div className = "w-auto h-60px shadow-md flex static justify-between px-6 items-center">
+        <div className = "w-full h-60px shadow-md flex static justify-between px-6 items-center">
 
         <img src={logo} alt = "logo"/>
 

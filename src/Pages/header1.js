@@ -2,11 +2,11 @@ import React from 'react';
  
 function Header1() {
     return(
-        <nav class="bg-gray navbar-dark navbar">
-            <div className="row col-12 d-flex justify-content-center text-white">
+        
+            <div className="bg-gray justify-center pt-14 ml-16 text-gray text-left font-extrabold text-6xl">
                 <h3>Login</h3>
             </div>
-        </nav>
+    
     )
 }
 export default Header1;

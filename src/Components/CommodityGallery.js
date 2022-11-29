@@ -117,7 +117,9 @@ function CommodityGallery (){
                         </div>
 
 
-                        <div></div>
+                        <div>
+                            
+                        </div>
 
 
 
@@ -126,7 +128,7 @@ function CommodityGallery (){
                         <h2 className=''>Explore Popular Brands</h2>
                         <p className='text-xs text-red-700'>SEE ALL</p>
                         </div>
-                        <div className='flex-wrap py-8 justify-evenly flex w-1/8 sm:flex-none'>{Popular.map((item) => {
+                        <div className='flex-wrap py-8 justify-evenly flex w-1/8  sm:flex-none'>{Popular.map((item) => {
                             return <img src = {item.url}
                             key = {item.id} alt = {item.name} />
                         })}</div>

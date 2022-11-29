@@ -11,10 +11,12 @@ function Signup (){
     return(
         <div>
             <Nav />
+
             <Header2 />
-            
-            <form className='content-center'>
-                <div className='p-12 justify-center'>
+
+            <div>
+                
+            <form className='p-14'>
 
                 <div>
                 <label>First Name</label>
@@ -48,11 +50,11 @@ function Signup (){
             
 
                 <div>
-                <input type ="Sign up" name='button' className = "w-20px block h-35px bg-orange-500 border hover:text-blue-500 rounded-md "/>
+                <input type ="Submit" name='button' className = "w-20px h-35px bg-orange-500 border hover:text-blue-500 rounded-md "/>
                 </div>
-                
-                </div>
+            
             </form>
+            </div>
             <Footer />
         </div>
     )

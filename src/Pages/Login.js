@@ -66,11 +66,11 @@ return (
           <Header1 />
 
             <div>
-                <form className='p-12'>
+                <form className='p-14'>
 
                 <div>
                 <label>Username</label>
-                <input type = 'text' name='username'className='w-20px block mb-4 h-35 border rounded-md shadow' required/>   
+                <input type = 'text' name='username'className='w-20px text-gray-600 block mb-4 h-35 border rounded-md shadow' required/>   
                 </div>
 
                 <div>
@@ -78,8 +78,8 @@ return (
                 <input type = 'password' name='password'className='w-20px text-gray-600 block mb-4 h-35 border rounded-md shadow' required/>
                 </div>
 
-                <div className='flex'>
-                <input type ="Login" name='button' className = "cursor block text-white w-30px h-35px bg-orange-500 border hover:text-blue-500 rounded-md cursor "/>
+                <div className='flex space-x-6'>
+                <input type ="submit" name='button' className = "cursor text-white w-30px h-35px bg-orange-500 border hover:text-blue-500 rounded-md cursor "/>
                 <p> Forgot Password?</p>
             </div>
 
