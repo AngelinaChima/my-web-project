@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
+import Header1 from './header1';
 //import { useState } from "react";
 
 
@@ -62,8 +63,10 @@ return (
 
        <div>
           <Nav />
+          <Header1 />
+
             <div>
-                <form className='p-12 justify-center'>
+                <form className='p-12'>
 
                 <div>
                 <label>Username</label>
@@ -72,11 +75,12 @@ return (
 
                 <div>
                 <label>Password</label>
-                <input type = 'password' name='password'className='w-20px block mb-4 h-35 border rounded-md shadow' required/>
+                <input type = 'password' name='password'className='w-20px text-gray-600 block mb-4 h-35 border rounded-md shadow' required/>
                 </div>
 
-                <div>
-                <input type ="submit" name='button' className = "cursor block text-white w-30px h-35px bg-orange-500 border hover:text-blue-500 rounded-md "/>
+                <div className='flex'>
+                <input type ="Login" name='button' className = "cursor block text-white w-30px h-35px bg-orange-500 border hover:text-blue-500 rounded-md cursor "/>
+                <p> Forgot Password?</p>
             </div>
 
                 </form>
