@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
 import Header1 from './header1';
+import {Link} from "react-router-dom";
 //import { useState } from "react";
 
 
@@ -80,7 +81,8 @@ return (
 
                 <div className='flex space-x-6'>
                 <input type ="submit" name='button' className = "cursor text-white w-30px h-35px bg-orange-500 border hover:text-blue-500 rounded-md cursor "/>
-                <p> Forgot Password?</p>
+               <Link to = "Home"> <p> Forgot Password?</p> </Link>
+
             </div>
 
                 </form>

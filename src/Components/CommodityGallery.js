@@ -1,6 +1,5 @@
 import React from 'react';
 import Commodity from '../Data';
-import Popular from '../Popular';
 import {Link} from "react-router-dom";
 import CommodityItem from '../Components/CommodityItem';
 //import FaChevronRight from "react-icons/fa";
@@ -19,6 +18,13 @@ import Kids from "../Images/Kids.png";
 import chevron from "../Images/chevron.png";
 import sale from "../Images/sale.png";
 import sell from "../Images/sell.png";
+import Toyota from "../Images/Toyota.png";
+import Samsung from "../Images/Samsung.png";
+import Nivea from "../Images/Nivea.png";
+import Adidas from "../Images/Adidas.png";
+import Apple from "../Images/Apple.png";
+import Honda from "../Images/Honda.png";
+import Vehicle from '../Items/Vehicle';
 
 
 
@@ -26,6 +32,9 @@ import sell from "../Images/sell.png";
 function CommodityGallery (){
 
     return(
+
+        
+
         <div className='flex justify-evenly'>
                 <div className = ' m-6 p-6 shadow w-40px'>
                    <h4 className = "shadow-md px-4">CATEGORIES</h4>
@@ -123,11 +132,41 @@ function CommodityGallery (){
                         <h2 className=''>Explore Popular Brands</h2>
                         <p className='text-xs text-red-700 cursor'>SEE ALL</p>
                         </div>
-                        <div className='flex-wrap py-8 justify-evenly flex w-1/8  sm:flex-none'>{Popular.map((item) => {
-                            return <img src = {item.url}
-                            key = {item.id} alt = {item.name} />
-                        })}</div>
+
+                        <div className=' justify-evenly flex sm:flex-none'>
+
+                         <div>
+                       <Link to = ""> <img src = {Toyota} alt = "car" /> </Link>
+                        </div>
+
+                        <div>
+                            <img src = {Samsung} alt = "phone" />
+                            <p className='pl-6 font-medium'>Samsung</p>
+                        </div>
+
+                        <div>
+                            <img src = {Nivea} alt = "lotion" />
+                            <p className='pl-9 font-medium'>Lotion</p>
+                        </div>
+
+                        <div>
+                            <img src = {Adidas} alt = "sneaker" />
+                            <p className='pl-7 font-medium'>Sneaker</p>
+                        </div>
+
+                        <div>
+                            <img src = {Apple} alt = "phone" />
+                            <p className='pl-7 font-medium'>I Phone</p>
+                        </div>
+
+                        <div>
+                            <img src = {Honda} alt = "car" />
+                            <p className='pl-9 font-medium'>Honda</p>
+                        </div>
+
+                        </div>
                     
+
                     <div className=''>
                         <h2>Daily Deals</h2>
                         <div className='flex-wrap flex w-1/8 justify-evenly sm:flex-none'> {Commodity.map ((peg) =>
