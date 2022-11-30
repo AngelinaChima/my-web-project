@@ -24,7 +24,7 @@ import Nivea from "../Images/Nivea.png";
 import Adidas from "../Images/Adidas.png";
 import Apple from "../Images/Apple.png";
 import Honda from "../Images/Honda.png";
-import Vehicle from '../Items/Vehicle';
+//import Vehicle from '../Items/Vehicle';
 
 
 
@@ -133,7 +133,7 @@ function CommodityGallery (){
                         <p className='text-xs text-red-700 cursor'>SEE ALL</p>
                         </div>
 
-                        <div className=' justify-evenly flex sm:flex-none'>
+                        <div className=' justify-evenly flex sm:flex-none cursor'>
 
                          <div>
                        <Link to = ""> <img src = {Toyota} alt = "car" /> </Link>

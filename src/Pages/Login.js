@@ -31,7 +31,7 @@ function Login () {
 
  // const handleSubmit = (event) => {
     //Prevent page reload
-   // event.preventDefault();
+   // event.preventDefault(); 
 
    // var { username, password } = document.forms[0];
 
