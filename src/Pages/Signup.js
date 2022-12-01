@@ -79,7 +79,7 @@ function Signup (){
 
                 <div>
                 <label>First Name</label>
-                <input type = 'text' name = 'First Name' className='w-20px text-gray-600 block mb-4 h-35 border rounded-md shadow'/>
+                <input type = 'text' name = 'First Name' className='w-20px text-gray-600 block mb-4 h-35 border rounded-md shadow' required/>
                 </div>
 
                 <div>
