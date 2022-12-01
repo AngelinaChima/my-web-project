@@ -23,7 +23,7 @@ function Nav (){
             <Link to = "/" className = 'mr-4 cursor-pointer text-black-400 hover:text-blue-500'>Help</Link>
             </div>
 
-            <Link to = "Signup" className = 'mr-4 cursor-pointer text-black-400 hover:text-blue-500'>Signup</Link>
+            <Link to = "/Signup" className = 'mr-4 cursor-pointer text-black-400 hover:text-blue-500'>Signup</Link>
             
             <Link to = "/Login" className = "w-15px h-30px sm:w-10px sm:text-xs sm:h-5px md:h-20px md:w-10px md:text-sm bg-orange-500 border hover:text-blue-500 rounded-md ">Get Started</Link>
             </div>
